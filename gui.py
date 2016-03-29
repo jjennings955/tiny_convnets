@@ -51,7 +51,7 @@ class GUIUpdater(Callback):
 
 
 def data():
-    X, y = get_data(os.path.join(os.getcwd(), '../data'), junk=True)
+    X, y = get_data(os.path.join(os.getcwd(), './data'), junk=True)
     return X, y
 
 def experiment():
